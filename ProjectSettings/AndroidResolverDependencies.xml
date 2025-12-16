@@ -1,12 +1,14 @@
 <dependencies>
   <packages>
     <package>com.github.cafebazaar.Poolakey:poolakey:2.0.0</package>
-    <package>org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20</package>
+    <package>org.jetbrains.kotlin:kotlin-stdlib:1.9.10</package>
+    <package>org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10</package>
+    <package>org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10</package>
   </packages>
   <files />
   <settings>
-    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="com.MrParsley.BazaarIAP2025" />
+    <setting name="androidAbis" value="arm64-v8a" />
+    <setting name="bundleId" value="com.cafeiab.test" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />

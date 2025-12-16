@@ -20,16 +20,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
     implementation 'com.github.cafebazaar.Poolakey:poolakey:2.0.0' // Assets/Bazaar/Poolakey/Scripts/Editor/CafeBazaarPlugin_Dependencies.xml:7
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.9.10' // Assets/Bazaar/Poolakey/Scripts/Editor/CafeBazaarPlugin_Dependencies.xml:10
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10' // Assets/Bazaar/Poolakey/Scripts/Editor/CafeBazaarPlugin_Dependencies.xml:11
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10' // Assets/Bazaar/Poolakey/Scripts/Editor/CafeBazaarPlugin_Dependencies.xml:12
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10' // Assets/Bazaar/Poolakey/Scripts/Editor/CafeBazaarPlugin_Dependencies.xml:8
 // Android Resolver Dependencies End
     **DEPS**
 }
 
 // Android Resolver Exclusions Start
 android {
-  packaging {
+  packagingOptions {
       exclude ('/lib/armeabi/*' + '*')
       exclude ('/lib/armeabi-v7a/*' + '*')
       exclude ('/lib/mips/*' + '*')
