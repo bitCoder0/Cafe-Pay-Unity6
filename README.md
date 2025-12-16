@@ -6,12 +6,12 @@ README — رفع خطاهای Poolakey (نسخه 2.1.1) در Unity 6
 در زمان پیاده‌سازی SDK پرداخت درون‌برنامه‌ای Poolakey نسخه 2.1.1
 در Unity 6.2.6f2 ایجاد شده است.
 
-SDK رسمی مورد استفاده:
+SDK رسمی مورد استفاده:  
+
 https://github.com/cafebazaar/PoolakeyUnitySdk/releases/tag/2.1.1
 
 در فرآیند پیاده‌سازی، ابتدا خطای  زمان بیلد duplicate classو پس از آن خطای Runtime مشاهده شد
 
-درون‌برنامه‌ای می‌گردید.
 
 سورس کد این پروژه ، 
 
@@ -109,4 +109,5 @@ dependencies {
 برنامه‌های آتی
 --------------
 - تست مجدد پروژه
+- بهبود توضیحات readme
 - ساخت فایل unitypackage
